@@ -2,7 +2,7 @@ import Image from "next/image";
 import PhpImage from "../../../../public/php.png";
 import JqueryImage from "../../../../public/jquery.png";
 import JavascriptImage from "../../../../public/javascript.png";
-import PythonImage from "../../../../public/python.jpeg";
+import PythonImage from "../../../../public/python.png";
 import HtmlImage from "../../../../public/html.jpeg";
 import ReactImage from "../../../../public/react.png";
 
@@ -54,6 +54,7 @@ export default function Skills () {
                             </div>
                         </div>
                     </div>
+                    <hr />
                     <div className="row">
                         <div className="col-md-12">
                             <div className="">
@@ -76,6 +77,7 @@ export default function Skills () {
                             </div>
                         </div>
                     </div>
+                    <hr />
                     <div className="row">
                         <div className="col-md-12">
                             <div className="">
@@ -98,6 +100,7 @@ export default function Skills () {
                             </div>
                         </div>
                     </div>
+                    <hr />
                     <div className="row">
                         <div className="col-md-12">
                             <div className="">

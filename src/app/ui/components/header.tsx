@@ -16,9 +16,9 @@ export default function Header() {
                 <span className="navbar-toggler-icon"><i className="fa fa-align-justify"></i></span>
                 </button>
                 <div className="navbar-brand logo">
-                    <Image className="img-fluid" src={Logo} alt="Logo" width={60} height={50}/>
-                    {/* <a href="index-2.html">
-                    </a> */}
+                    <Link href="/">
+                        <Image className="img-fluid" src={Logo} alt="Logo" width={60} height={50}/>
+                    </Link>
                 </div>
                 </div>
                 <div id="navbar-collapse" className="collapse navbar-collapse">
