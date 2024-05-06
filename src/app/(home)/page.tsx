@@ -1,12 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
+import Dp from "../../../public/profile.jpg";
 
 export default function About() {
     return (
         <>
-            <div id="about" className="about-section contact-section">
+            <div id="about" className="profile about-section contact-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-6">
                             <div className="section-title">
                                 <h1>Taha Hameed</h1>
                                 <h4>Fullstack Developer</h4>
@@ -76,6 +78,21 @@ export default function About() {
                                     </ul>
                                 </div>
                             </address>
+                            <div className="button">
+                                <a href="cv.pdf" className="btn btn-primary">Download Resume as a .pdf file</a>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <Image 
+                                className="img-fluid" 
+                                src={Dp} 
+                                alt="Image" 
+                                // width={175} 
+                                // height={160}
+                                
+                                layout="responsive"
+                                objectFit="cover" 
+                            />
                         </div>
                     </div>
                 </div>
