@@ -79,7 +79,7 @@ export default function About() {
                                 </div>
                             </address>
                             <div className="button">
-                                <a href="cv.pdf" className="btn btn-primary">Download Resume as a .pdf file</a>
+                                <Link href="Taha Hameed.pdf" target="_blank" className="btn btn-primary">Download Resume as a .pdf file</Link>
                             </div>
                         </div>
                         <div className="col-md-6">
