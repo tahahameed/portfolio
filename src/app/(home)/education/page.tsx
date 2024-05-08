@@ -30,10 +30,10 @@ export default function Education () {
                                 <h3>National University of Computer & Emerging Sciences (FAST-NU), Lahore</h3>
                                 <h4>BS (Computer Science)</h4>
                                 <h6>2014</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> */}
                             </div>
                         </div>
-                        
+                        <div className="clearfix"></div>
                         <hr/>
                         
                         <div className="exprience">
@@ -52,10 +52,11 @@ export default function Education () {
                                 <h3>Government College of Science Wahdat Road, Lahore</h3>
                                 <h4>FSC (Pre-Engineering)</h4>
                                 <h6>2010</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> */}
                             </div>
                         </div>
 
+                        <div className="clearfix"></div>
                         <hr/>
 
                         <div className="exprience">
@@ -74,9 +75,10 @@ export default function Education () {
                                 <h3>Crescent Model Higher Secondary School, Lahore</h3>
                                 <h4>Matric (Computer Science)</h4>
                                 <h6>2008</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> */}
                             </div>
                         </div>
+                        <div className="clearfix"></div>
                     </div>
                 </div>
             </div>
