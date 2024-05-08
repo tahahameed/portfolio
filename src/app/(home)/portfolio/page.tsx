@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import SISImage from "../../../../public/SIS.PNG";
-import CISImage from "../../../../public/CIS.PNG";
-import SCPImage from "../../../../public/SCP.PNG";
-import GBImage from "../../../../public/GB.PNG";
-import Step2ComplianceImage from "../../../../public/Step2Compliance.PNG";
-import SoftcakeImage from "../../../../public/Softcake.PNG";
+import SISImage from "../../../../public/SIS.png";
+import CISImage from "../../../../public/CIS.png";
+import SCPImage from "../../../../public/SCP.png";
+import GBImage from "../../../../public/GB.png";
+import Step2ComplianceImage from "../../../../public/Step2Compliance.png";
+import SoftcakeImage from "../../../../public/Softcake.png";
 
 export default function Portfolio () {
     return (
