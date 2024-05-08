@@ -30,7 +30,9 @@ export default function Experience () {
                             <div className="exprience-info">
                                 <h3>Senior Software Engineer, Punjab Information Technology Board (PITB)</h3>
                                 <h5>July, 2017 - Present</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>
+                                    Worked on multiple databases (MySQL, MS SQL), pipelines, RabbitMQ and server management
+                                </p>
                             </div>
                         </div>
 
@@ -51,7 +53,9 @@ export default function Experience () {
                             <div className="exprience-info">
                                 <h3>Software Engineer, Naseeb Networks (Rozee.pk)</h3>
                                 <h5>Aug, 2016 - July, 2017</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>
+                                    Worked on Core PHP, custom MVC framework
+                                </p>
                             </div>
                         </div>
                         <hr/>
@@ -70,7 +74,10 @@ export default function Experience () {
                             <div className="exprience-info">
                                 <h3>Software Engineer, Contrive Solutions</h3>
                                 <h5>June, 2015 - Aug, 2016</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>
+                                    Served as Team Lead while working on international projects with international teams and clients<br/>
+                                    Integrated third party APK (Stripe, Quickbooks, Google Drive)
+                                </p>
                             </div>
                         </div>
                         <hr/>
@@ -89,7 +96,9 @@ export default function Experience () {
                             <div className="exprience-info">
                                 <h3>Web/ Android Developer, Logica IT</h3>
                                 <h5>Feb, 2015 - June, 2015</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>
+                                    Worked as web developer as well as android developer
+                                </p>
                             </div>
                         </div>
                     </div>
