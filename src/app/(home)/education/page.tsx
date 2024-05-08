@@ -11,8 +11,8 @@ export default function Education () {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="text-info">
-                            <h4>Just My Educational Background</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <h4>Educational Background</h4>
+                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> */}
                         </div>
                         <div className="exprience">
                             <div className="exprience-image">

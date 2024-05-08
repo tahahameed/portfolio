@@ -13,7 +13,7 @@ export default function Experience () {
                     <div className="col-md-12">
                         <div className="text-info">
                             <h4>9+ Years Exprience</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>I have leadership experience with over <strong>9 years</strong> including a tenure as a <i>Team Lead</i>.</p>
                         </div>
                         <div className="exprience">
                             <div className="exprience-image">

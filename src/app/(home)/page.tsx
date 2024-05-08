@@ -14,7 +14,7 @@ export default function About() {
                                 <h4>Fullstack Developer</h4>
                             </div>
                             <div className="about-info">
-                                <p>I have a diverse skill set and leadership experience with over 8 years of experience, including a
+                                <p>I have a diverse skill set and leadership experience with over 9 years of experience, including a
                                 tenure as a Team Lead. My expertise extends beyond coding, encompassing server
                                 management, code integration, and deployment on Linux servers. I have also implemented
                                 pipelines to streamline development processes, enhancing efficiency and productivity. I am
@@ -22,7 +22,7 @@ export default function About() {
                                 and Generative AI. </p>
                             </div>
                             <address>
-                                <div>
+                                {/* <div>
                                     <ul className="social list-inline">
                                         <li>
                                             <strong><i className="fa fa-envelope-o" aria-hidden="true"></i></strong>
@@ -32,6 +32,25 @@ export default function About() {
                                         </li>
                                         <li>
                                             tahahameed1@gmail.com
+                                        </li>
+                                    </ul>
+                                </div> */}
+                                <div> 
+                                    <ul className="social list-inline">
+                                        <li>
+                                            <strong><i className="fa fa-external-link" aria-hidden="true"></i></strong>
+                                        </li>
+                                        <li>
+                                            <strong>Connect:</strong>
+                                        </li>
+                                        <li>
+                                            <Link href="mailto:tahahameed1@gmail.com" target="_blank"><i className="fa fa-envelope-o" aria-hidden="true"></i></Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://www.linkedin.com/in/taha-hameed-97a8775a/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://github.com/tahahameed" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -57,23 +76,7 @@ export default function About() {
                                             <strong>Address:</strong>
                                         </li>
                                         <li>
-                                        Gulshan-e-Ravi, Lahore, Pakistan
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div> 
-                                    <ul className="social list-inline">
-                                        <li>
-                                            <strong><i className="fa fa-external-link" aria-hidden="true"></i></strong>
-                                        </li>
-                                        <li>
-                                            <strong>Connect:</strong>
-                                        </li>
-                                        <li>
-                                            <Link href="https://www.linkedin.com/in/taha-hameed-97a8775a/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://github.com/tahahameed" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></Link>
+                                            Lahore, Pakistan
                                         </li>
                                     </ul>
                                 </div>
