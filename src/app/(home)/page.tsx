@@ -47,7 +47,7 @@ export default function About() {
                                             <Link href="mailto:tahahameed1@gmail.com" target="_blank"><i className="fa fa-envelope-o" aria-hidden="true"></i></Link>
                                         </li>
                                         <li>
-                                            <Link href="https://www.linkedin.com/in/taha-hameed-97a8775a/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
+                                            <Link href="https://www.linkedin.com/in/taha-hameed-fastian/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
                                         </li>
                                         <li>
                                             <Link href="https://github.com/tahahameed" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></Link>
