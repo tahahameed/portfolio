@@ -14,12 +14,12 @@ export default function About() {
                                 <h4>Fullstack Developer</h4>
                             </div>
                             <div className="about-info">
-                                <p>I have a diverse skill set and leadership experience with over 9 years of experience, including a
+                                <p>I have a diverse skill set (backend, frontend) and leadership experience with over 9 years of experience, including a
                                 tenure as a Team Lead. My expertise extends beyond coding, encompassing server
                                 management, code integration, and deployment on Linux servers. I have also implemented
                                 pipelines to streamline development processes, enhancing efficiency and productivity. I am
-                                passionate about staying current with emerging technologies and have learned Next.js, Python
-                                and Generative AI. </p>
+                                passionate about staying current with emerging technologies and have learned Next.js (Server Side Rendering, Client Side Rendering), Python (Fast API-Pydantic, Django-Serializer)
+                                and Generative AI (Function calling, Assistants). </p>
                             </div>
                             <address>
                                 {/* <div>
