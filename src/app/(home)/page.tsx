@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import Dp from "../../../public/profile.jpg";
+// import Dp from "../../../public/profile.jpg";
+import Dp from "../../../public/profile-ghibli-white.png";
 
 export default function About() {
     return (
