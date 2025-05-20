@@ -4,6 +4,9 @@ import Image from "next/image";
 import Dp from "../../../public/profile-ghibli-white.png";
 
 export default function About() {
+    const currentYear = new Date().getFullYear();
+    const experienceYears = currentYear - 2015;
+
     return (
         <>
             <div id="about" className="profile about-section contact-section">
@@ -15,7 +18,7 @@ export default function About() {
                                 <h4>Fullstack Developer</h4>
                             </div>
                             <div className="about-info">
-                                <p>I have a diverse skill set (backend, frontend) and leadership experience with over 9 years of experience, including a
+                                <p>I have a diverse skill set (backend, frontend) and leadership experience with over {experienceYears} years of experience, including a
                                 tenure as a Team Lead. My expertise extends beyond coding, encompassing server
                                 management, code integration, and deployment on Linux servers. I have also implemented
                                 pipelines to streamline development processes, enhancing efficiency and productivity. I am
