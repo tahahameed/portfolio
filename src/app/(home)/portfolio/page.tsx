@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CRMImage from "../../../../public/CRM.png";
 import SISImage from "../../../../public/SIS.png";
 import CISImage from "../../../../public/CIS.png";
 import SCPImage from "../../../../public/SCP.png";
@@ -14,14 +15,14 @@ export default function Portfolio () {
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="portfolio-item">
-                            <Image className="img-fluid" src={SCPImage} layout="responsive" objectFit="cover"  alt="Image" />
-                            <h4>Supreme Court Pakistan</h4>
+                            <Image className="img-fluid" src={CRMImage} layout="responsive" objectFit="cover"  alt="Image" />
+                            <h4>CRM</h4>
                             <div className="portfolio-overlay">
                                 <div className="portfolio-info">
-                                    <Link href="#" target="_blank">
+                                    <Link href="https://desktopapi.hivepbx.com/swagger/" target="_blank">
                                         <i className="fa fa-external-link" aria-hidden="true"></i>
                                     </Link>
-                                    <p>This is used by Supreme Court of Pakistan internally.</p>
+                                    <p>Integration system which includes CovetrusCRM, Salesforce, Teledynamics, Google Calendar/Contacts, and Microsoft Graph APIs.</p>
                                 </div>
                             </div>
                         </div>
@@ -83,6 +84,7 @@ export default function Portfolio () {
                                     <Link href="https://www.step2compliance.com/" target="_blank">
                                         <i className="fa fa-external-link" aria-hidden="true"></i>
                                     </Link>
+                                    <p>Contributed to an engine performance and compliance management system built with Laravel and MySQL.</p>
                                     <p></p>
                                 </div>
                             </div>
